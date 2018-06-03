@@ -1,0 +1,12 @@
+
+export const ACTIONS = {
+    CHANGE_SAMPLE : "CHANGE_SAMPLE",
+};
+
+export const SAMPLES = {
+    SAMPlE_HOME :"SAMPlE_HOME",
+    PULL_DOWN_MENU :"PULL_DOWN_MENU",
+    SLIDE_MENU :"SLIDE_MENU",
+    DUMMY_SAMPLE :"DUMMY_SAMPLE"
+
+}
