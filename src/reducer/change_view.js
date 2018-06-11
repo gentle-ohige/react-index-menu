@@ -12,6 +12,9 @@ export default function changeView (state = initialState,action){
             case CON.SAMPLES.SAMPlE_HOME:
                 console.log(action);
                 return Object.assign({},state,{sample:CON.SAMPLES.SAMPlE_HOME})
+            case CON.SAMPLES.OVERLAY_MENU:
+                console.log(action);
+                return Object.assign({},state,{sample:CON.SAMPLES.OVERLAY_MENU})
             case CON.SAMPLES.PULL_DOWN_MENU:
                   console.log(action);
                 return Object.assign({},state,{sample:CON.SAMPLES.PULL_DOWN_MENU})

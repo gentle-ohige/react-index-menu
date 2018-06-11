@@ -1,4 +1,5 @@
  import React, { Component } from 'react';
+ import logo from './logo.svg';
 import Main from './containers/Main'
 import Navigator from './containers/Navigator'
 
@@ -19,5 +20,7 @@ class App extends Component {
     );
   }
 }
+
+
 
 export default App;

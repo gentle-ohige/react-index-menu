@@ -1,6 +1,5 @@
 import React ,{Component} from 'react';
 
-import PullDownMenuBase from '../components/pull_down_menu/PullDownMenuBase'
 import TestBtn from '../components/button/TestBtn'
 
 //import Router
@@ -22,7 +21,7 @@ class Home  extends Component {
     console.log(this.state)
     
     return(
-      <div className="App" style={{
+      <div  style={{
         position:'relative',
         top:'0px',
         left:'0px',
@@ -34,12 +33,12 @@ class Home  extends Component {
          margin: '50px auto',
          width: '350px'}}>
          <div style={{height:"10px"}}/>
-         <TestBtn text="PullDownMenuBase" onClick={()=>{
+         <TestBtn text="OverlayMenu" onClick={()=>{
            console.log('====================================');
-           console.log('PullDownMenuBase chageState');
+           console.log('overlay_menu chageState');
            console.log('====================================');
            this.props.onClick(CON.SAMPLES.PULL_DOWN_MENU)
-           this.props.history.push("/pull_down_menu");
+           this.props.history.push("/overlay_menu");
             
          }}/>
          <div style={{height:"10px"}}/>

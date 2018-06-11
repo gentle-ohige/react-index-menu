@@ -6,6 +6,7 @@ import { Switch, Route ,withRouter} from 'react-router-dom'
 //Views
 import Home from './Home'
 import Dummy from '../components/dummys/Dummy'
+import OverlayMenuSample from './OverlayMenuSample'
 
 //Redux
 import * as CON from '../action/constance'
@@ -45,7 +46,7 @@ class Main extends Component  {
             <main>
                <Switch>
                   <Route exact path='/' component={Home}/>
-                  <Route path='/pull_down_menu' component={Dummy}/>
+                  <Route path='/overlay_menu' component={OverlayMenuSample}/>
                   <Route path='/dummy' component={Dummy}/>
                   <Route path='/dummy02' component={Dummy}/>
                </Switch>

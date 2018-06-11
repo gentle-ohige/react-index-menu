@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import PropTypes from 'prop-types'
 
+
 export default class PullDownMenuCell extends Component{
     constructor(){
         super()
@@ -18,7 +19,7 @@ export default class PullDownMenuCell extends Component{
 
 
         return (
-            <div style={menuCellStyle}>
+            <div style={menuCellStyle} onClick ={this.props.btnFuc}>
                 <h1 style={fontStyle}>    {this.props.btnTittle}</h1>
               
             </div>
